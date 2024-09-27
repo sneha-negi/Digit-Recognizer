@@ -35,25 +35,25 @@ How to Access and Use the Application
 
 First, clone this repository to your local machine:
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   git clone   [https://github.com/sneha-negi/Digit-Recognizer](https://github.com/sneha-negi/Digit-Recognizer)  cd Digit-Recognizer   `
+git clone   [https://github.com/sneha-negi/Digit-Recognizer](https://github.com/sneha-negi/Digit-Recognizer)  cd Digit-Recognizer   `
 
 ### 2\. Install Dependencies
 
 Install the necessary Python packages using pip. This project requires **Flask**, **TensorFlow**, and **Pillow**:
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   pip install -r requirements.txt   `
+pip install -r requirements.txt   `
 
 ### 3\. Run the Application
 
 Once all the dependencies are installed, you can start the Flask application by running the RecognizeDigit.py script:
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   python RecognizeDigit.py   `
+python RecognizeDigit.py   `
 
 ### 4\. Access the Web Application
 
 After running the above command, open a web browser and navigate to:
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   http://127.0.0.1:5000/   `
+http://127.0.0.1:5000/   `
 
 This will bring up the homepage, where you can upload an image of a digit (0-9) and get a prediction.
 
